@@ -1,5 +1,4 @@
-const bcrypt = require('bcryptjs')
-
+import bcrypt from 'bcryptjs'
 const { argv } = process
 
 const { APP_SECRET } = process.env
@@ -12,10 +11,10 @@ if (!APP_SECRET || APP_SECRET === '') {
   throw new Error('APP_SECRET não definido como variável de ambiente (env)')
 }
 
-const senha = argv[2]
+const senha:string = argv[2]
 
 console.log('Gerando hash...')
 
-const hash = bcrypt.hashSync(senha + APP_SECRET)
+const hash:string = bcrypt.hashSync(senha + APP_SECRET)
 
 console.log('Hash: ', hash)

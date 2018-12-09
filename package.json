@@ -9,8 +9,8 @@
     "dev": "ts-node ./src/index.ts",
     "start": "nodemon ./dist/index.js",
     "prod": "yarn build && yarn start",
-    "passwordGenerate": "node src/scripts/utils/passwordGenerate.js",
-    "appSecretGenerate": "node src/scripts/utils/appSecretGenerate.js"
+    "passwordGenerate": "node dist/scripts/utils/passwordGenerate.js",
+    "appSecretGenerate": "node dist/scripts/utils/appSecretGenerate.js"
   },
   "keywords": [],
   "author": "Patrick D Paulo Baia Cunha",
