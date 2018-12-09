@@ -1,6 +1,6 @@
-[[ args[0] == "-h" ]] && echo "Script para montar o boilerplate automaticamente, insira 2 argumentos, 1 = nome do projeto, 2 = url do repositorio online" && exit 1
+[[ args[0] == "-h" ]] && echo "Script to mount the boilerplate automatic, input 2 arguments, 1 = project_name, 2 = online_repository_uri" && exit 1
 
-[[ $# -lt 2 ]] && echo "numero insuficiente de argumentos" && exit 1
+[[ $# -lt 2 ]] && echo "Insuficient argument number" && exit 1
 
 args=("$@")
 
@@ -20,7 +20,7 @@ cd ../..
 json -I -f package.json -e 'this.name="'+${args[0]}+'"'
 json -I -f package.json -e 'this.description=""'
 
-echo "Boilerplate montado com Sucesso"
+echo "Boilerplate mounted with success"
 
 node server.js
 
