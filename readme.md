@@ -1,4 +1,4 @@
-# BoilerPlate API Nodejs
+# BoilerPlate Typescript API Nodejs/Express
 
 ## Description
 
