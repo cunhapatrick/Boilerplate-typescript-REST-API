@@ -13,4 +13,4 @@ console.log('Generate hash...')
 console.log(
   'APP SECRET CREATED!!!'
 )
-console.log(hash)
+console.log('hash:',hash)
