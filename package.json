@@ -1,8 +1,8 @@
 {
-  "name": "boilerplate-nodejs-express-api",
+  "name": "boilerplate-typescript-nodejs-express-api",
   "version": "1.0.0",
   "private": true,
-  "description": "boilerplate created with basic mongoose and ejs template configuration",
+  "description": "boilerplate created using typescript with basic mongoose, ejs and handlebars template configuration",
   "main": "server.js",
   "scripts": {
     "build": "tsc",
