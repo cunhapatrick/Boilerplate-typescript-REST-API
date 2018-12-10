@@ -59,7 +59,7 @@ To development a recommend use [mailtrap](https://mailtrap.io), make a account a
 
 ## Exception Error Config
 
-To production error monitoring, I used (Sentry)[https://sentry.io], create a account and create a project, after that get the credentials data and put inside .env respective variables
+To production error monitoring, I used [Sentry](https://sentry.io), create a account and create a project, after that get the credentials data and put inside .env respective variables
 
 ## Init Server
 
